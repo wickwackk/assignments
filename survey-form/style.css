@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background: linear-gradient(to right, red, yellow) url(./img/form.jpeg)
+    no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
