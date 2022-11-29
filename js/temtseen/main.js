@@ -1,4 +1,4 @@
-/* let aTeamAvg = 88;
+/* let aTeamAvg = 95;
 let bTeamAvg = 90; */
 let aTeamAvg = (96 + 108 + 89) / 3;
 let bTeamAvg = (88 + 91 + 110) / 3;
