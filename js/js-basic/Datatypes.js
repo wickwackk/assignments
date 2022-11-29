@@ -1,3 +1,4 @@
+// #5
 console.log(typeof 15);
 console.log(typeof "15");
 console.log(typeof true);
