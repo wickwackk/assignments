@@ -29,9 +29,15 @@ let data = [
   "ажил",
   "явуулж",
   "байна",
+  "засгийн",
 ];
-let input = prompt()
+let input = "Засгийн";
+let result = input.toLowerCase();
+let count = 0;
 
-for(let i = 0; i<data.length; i++){
-  if()
+for (let i = 0; i < data.length; i++) {
+  if (data[i].toLocaleLowerCase() == result) {
+    count += 1;
+  }
 }
+console.log(input + " гэдэг үг " + count + " орсон байна.");
