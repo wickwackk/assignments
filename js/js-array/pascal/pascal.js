@@ -1,16 +1,24 @@
-let input = 5;
+let input = 7;
 let output = "";
 let n = 1;
+let arr1 = [];
 
 for (let i = 1; i <= input; i++) {
-  let arr = [];
   for (let y = input - i; y > 0; y--) {
     output += " ";
   }
-  for (let j = 1; j <= i; j++) {
-    arr[j - 1] = 1;
+  let arr = [];
+  for (let j = 0; j < i; j++) {
+    arr[0] = 1;
+    if (j == i - 1) {
+      arr[j] = 1;
+    }
+    if (j != 0 && j < i - 1) {
+      arr[j] = arr1[j - 1] + arr1[j];
+    }
   }
-  console.log(arr);
+  arr1 = arr;
+  console.log(arr1);
   output += arr.join(" ") + " ";
   output += "\n";
 }
