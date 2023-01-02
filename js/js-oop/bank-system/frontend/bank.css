@@ -1,0 +1,15 @@
+header {
+  height: 100px;
+}
+
+.inputClass {
+  gap: 20px;
+}
+
+.inputClass input {
+  width: 20%;
+}
+
+#button-addon2 {
+  width: 15%;
+}
